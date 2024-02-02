@@ -6,7 +6,7 @@ const LandingLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
       <Header />
-      <main>{children}</main>
+      <main className="mt-[60px]">{children}</main>
       <Footer />
     </div>
   );
