@@ -4,7 +4,7 @@ import React from "react";
 
 const LandingLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
+    <div className="">
       <Header />
       <main className="mt-[60px]">{children}</main>
       <Footer />
